@@ -36,8 +36,8 @@
 #define DE_L L              // L
 #define DE_ODIA SEMI        // Ö
 #define DE_ADIA APOS        // Ä
-#define DE_HASH NUHS        // #
-#define DE_LABK NUBS        // <
+#define DE_HASH HASH        // #
+#define DE_LABK BSLH        // <
 #define DE_Y Z              // Y
 #define DE_X X              // X
 #define DE_C C              // C
