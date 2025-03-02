@@ -1,0 +1,140 @@
+#include "keycodes_de.h"
+
+/{
+    behaviours {
+        DE_ONE: one_exclamation{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_1>, <&kp DE_EXLM>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        DE_TWO: two_at{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_2>, <&kp DE_AT>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        DE_THREE: three_hash{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_3>, <&kp DE_HASH>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        DE_FOUR: four_dollar{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_4>, <&kp DE_DLR>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        DE_FIVE: five_percent{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_5>, <&kp DE_PERC>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        DE_SIX: six_caret{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_6>, <&kp DE_CIRC>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        DE_SEVEN: seven_amp{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_7>, <&kp DE_AMPR>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        DE_EIGHT: eight_star{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_8>, <&kp DE_ASTR>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        DE_NINE: nine_lpar{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_9>, <&kp DE_LPRN>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        DE_ZERO: zero_rpar{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_0>, <&kp DE_RPRN>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        DE_MINUS: minus_udnerscore{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_MINUS>, <&kp DE_UNDS>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        DE_EQUAL: equal_plus{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_EQL>, <&kp DE_PLUS>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        DE_LBKT: lbkt_lbrc{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_LCBR>, <&kp DE_LBRC>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        DE_RBKT: rbkt_rbrc{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_RCBR>, <&kp DE_RBRC>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        DE_BACKSLASH: backslash_pipe{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_BSLS>, <&kp DE_PIPE>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        DE_SEMI: semicolon_colon{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_SCLN>, <&kp DE_COLN>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        DE_QUOT: apostrophe_quot{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_QUOT>, <&kp DE_DQUO>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        DE_COMMA: comma_lt{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_COMM>, <&kp DE_LABK>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        DE_DOT: dot_gt{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_DOT>, <&kp DE_RABK>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        DE_SLASH: slash_question{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp DE_SLSH>, <&kp DE_QUES>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        DE_DEL: backspace_delete{
+            compatible = "zmk,behaviour-mod-morph";
+            #binding-cells=<0>;
+            bindings = <&kp BACKSPACE>, <&kp DELETE>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        DE
+    };
+};
