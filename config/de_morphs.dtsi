@@ -101,7 +101,7 @@
             bindings = <&kp DE_SCLN>, <&kp DE_COLN>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-        DE_QUOT: apostrophe_quot{
+        DE_SQT: apostrophe_quot{
             compatible = "zmk,behaviour-mod-morph";
             #binding-cells=<0>;
             bindings = <&kp DE_QUOT>, <&kp DE_DQUO>;
