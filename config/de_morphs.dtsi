@@ -134,7 +134,5 @@
             bindings = <&kp BACKSPACE>, <&kp DELETE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-
-        DE
     };
 };
