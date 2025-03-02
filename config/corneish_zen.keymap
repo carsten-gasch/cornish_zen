@@ -50,7 +50,7 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI | [o] | SPC |   | ENT | ADJ | ALT |
             bindings = <
-&kp TAB    &kp DE_1   &kp DE_2   &kp DE_3 &kp DE_4  &kp DE_5    &kp DE_6     &kp DE_7     &kp DE_8    &kp DE_9    &kp DE_0 &trans
+&kp TAB    &kp DE_ONE   &kp DE_TWO   &kp DE_THREE &kp DE_FOUR  &kp DE_FIVE    &kp DE_SIX     &kp DE_SEVEN     &kp DE_EIGHT    &kp DE_NINE    &kp DE_ZERO &trans
 &kp LCTRL  &trans     &trans     &trans   &trans    &trans      &kp LEFT     &kp DOWN     &kp UP      &kp RIGHT   &trans   &trans
 &kp LSHFT  &trans     &trans     &trans   &trans    &trans      &kp DE_ADIA  &kp DE_ODIA  &kp DE_UDIA &kp DE_SS   &trans   &trans
                             &kp LGUI      &trans    &kp SPACE   &kp RET      &mo 3        &kp RALT

@@ -63,10 +63,10 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        DE_MINUS: minus_udnerscore{
+        DE_MINUS: minus_udderscore{
             compatible = "zmk,behaviour-mod-morph";
             #binding-cells=<0>;
-            bindings = <&kp DE_MINUS>, <&kp DE_UNDS>;
+            bindings = <&kp DE_MINS>, <&kp DE_UNDS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         DE_EQUAL: equal_plus{
