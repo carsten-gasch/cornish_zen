@@ -115,7 +115,7 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        DE_DOT: dot_gt{
+        DE_DOTGT: dot_gt{
             compatible = "zmk,behaviour-mod-morph";
             #binding-cells=<0>;
             bindings = <&kp DE_DOT>, <&kp DE_RABK>;
